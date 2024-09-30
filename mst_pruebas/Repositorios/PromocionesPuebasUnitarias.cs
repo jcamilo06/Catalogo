@@ -33,7 +33,7 @@ namespace mst_pruebas.Repositorios
             entidad = new Promociones()
             {
                 Nombre = "Prueba",
-                Descuento = 0.3f,
+                Descuento = 0.3,
                 Inicio = DateTime.Now,
                 Final = DateTime.Now
             };

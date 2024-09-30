@@ -10,7 +10,7 @@ namespace lib_entidades
         public string? Codigo_producto { get; set; }
         public string? Nombre_producto { get; set; }
         public string? Descripcion { get; set; }
-        public float Precio { get; set; }
+        public double Precio { get; set; }
         public int Stock { get; set; }
         public int Tipo_producto { get; set; }
         public int Fabricante { get; set; }

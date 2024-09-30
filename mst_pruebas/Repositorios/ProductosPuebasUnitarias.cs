@@ -35,7 +35,7 @@ namespace mst_pruebas.Repositorios
                 Codigo_producto = "005",
                 Nombre_producto = "Prueba",
                 Descripcion = "Prueba Prueba Prueba Prueba Prueba",
-                Precio = 1100.0f,
+                Precio = 1100.0,
                 Stock = 5,
                 Tipo_producto = 1,
                 Fabricante = 1

@@ -34,7 +34,7 @@ namespace mst_pruebas.Repositorios
             {
                 Titulo = "Prueba",
                 Fecha = DateTime.Now,
-                Costo = 800000.0f,
+                Costo = 800000.0,
                 Ciudad = "Ciudad1",
                 Producto = 1,
                 Imagen = 2,

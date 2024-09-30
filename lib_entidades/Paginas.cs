@@ -8,7 +8,7 @@ namespace lib_entidades
         [Key] public int Id { get; set; }
         public string? Titulo { get; set; }
         public DateTime Fecha { get; set; }
-        public float Costo { get; set; }
+        public double Costo { get; set; }
         public string? Ciudad { get; set; }
         public int Producto { get; set; }
         public int Imagen { get; set; }

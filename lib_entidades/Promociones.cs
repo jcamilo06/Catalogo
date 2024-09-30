@@ -6,7 +6,7 @@ namespace lib_entidades
     {
         [Key] public int Id { get; set; }
         public string? Nombre { get; set; }
-        public float Descuento { get; set; }
+        public double Descuento { get; set; }
         public DateTime Inicio { get; set; }
         public DateTime Final { get; set; }
 
