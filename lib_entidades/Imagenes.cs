@@ -4,20 +4,20 @@ namespace lib_entidades
 {
     public class Imagenes
     {
-        [Key] private int Id { get; set; }
-        private string? Nombre { get; set; }
-        private string? Url { get; set; }
+        [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
+        public string? Url { get; set; }
 
         /*
-        private Imagenes ObtenerImagen()
+        public Imagenes ObtenerImagen()
         {
 
         }
-        private void AgregarImagen()
+        public void AgregarImagen()
         {
 
         }
-        private void EliminarImagen()
+        public void EliminarImagen()
         {
 
         }

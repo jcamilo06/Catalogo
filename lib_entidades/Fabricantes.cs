@@ -4,16 +4,16 @@ namespace lib_entidades
 {
     public class Fabricantes
     {
-        [Key] private int Id { get; set; }
-        private string? Nombre { get; set; }
-        private string? Contacto { get; set; }
+        [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
+        public string? Contacto { get; set; }
 
         /*
-        private Fabricantes ObtenerFabricante()
+        public Fabricantes ObtenerFabricante()
         {
 
         }
-        private void AgregarFabricante()
+        public void AgregarFabricante()
         {
 
         }

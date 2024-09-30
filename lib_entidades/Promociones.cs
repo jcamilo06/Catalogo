@@ -4,14 +4,14 @@ namespace lib_entidades
 {
     public class Promociones
     {
-        [Key] private int Id { get; set; }
-        private string? Nombre { get; set; }
-        private float Descuento { get; set; }
-        private DateTime Inicio { get; set; }
-        private DateTime Final { get; set; }
+        [Key] public int Id { get; set; }
+        public string? Nombre { get; set; }
+        public float Descuento { get; set; }
+        public DateTime Inicio { get; set; }
+        public DateTime Final { get; set; }
 
         /*
-        private void CrearPromocion()
+        public void CrearPromocion()
         {
 
         }

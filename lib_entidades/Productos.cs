@@ -6,28 +6,28 @@ namespace lib_entidades
     public class Productos
     {
         //Atributos
-        [Key] private int Id { get; set; }
-        private string? Codigo_producto { get; set; }
-        private string? Nombre_producto { get; set; }
-        private string? Descripcion { get; set; }
-        private float Precio { get; set; }
-        private int Stock { get; set; }
-        private int Tipo_producto { get; set; }
-        private int Fabricante { get; set; }
+        [Key] public int Id { get; set; }
+        public string? Codigo_producto { get; set; }
+        public string? Nombre_producto { get; set; }
+        public string? Descripcion { get; set; }
+        public float Precio { get; set; }
+        public int Stock { get; set; }
+        public int Tipo_producto { get; set; }
+        public int Fabricante { get; set; }
 
         [NotMapped] public Tipos_producto? _Tipo_producto { get; set; }
         [NotMapped] public Fabricantes? _Fabricante { get; set; }
 
         /*
-         private Productos ObtenerProducto()
+         public Productos ObtenerProducto()
         {
 
         }
-        private void AgregarProducto()
+        public void AgregarProducto()
         {
 
         }
-        private void EliminarProducto()
+        public void EliminarProducto()
         {
 
         }
