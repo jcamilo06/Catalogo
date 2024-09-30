@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\source\repos\Desarrollo_Catalogo\Catalogo\lib_repositorios.csproj" />
     <ProjectReference Include="..\lib_entidades\lib_entidades.csproj" />
+    <ProjectReference Include="..\lib_repositorios\lib_repositorios.csproj" />
   </ItemGroup>
 
   <ItemGroup>

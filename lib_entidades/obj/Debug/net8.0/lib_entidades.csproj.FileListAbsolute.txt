@@ -10,3 +10,15 @@ C:\Users\Usuario\Desktop\Catalogo\Catalogo\lib_entidades\obj\Debug\net8.0\lib_en
 C:\Users\Usuario\Desktop\Catalogo\Catalogo\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
 C:\Users\Usuario\Desktop\Catalogo\Catalogo\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
 C:\Users\Usuario\Desktop\Catalogo\Catalogo\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
+C:\Catalogo1\lib_entidades\bin\Debug\net8.0\lib_entidades.deps.json
+C:\Catalogo1\lib_entidades\bin\Debug\net8.0\lib_entidades.dll
+C:\Catalogo1\lib_entidades\bin\Debug\net8.0\lib_entidades.pdb
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfoInputs.cache
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.AssemblyInfo.cs
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.csproj.CoreCompileInputs.cache
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.sourcelink.json
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.dll
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\refint\lib_entidades.dll
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\lib_entidades.pdb
+C:\Catalogo1\lib_entidades\obj\Debug\net8.0\ref\lib_entidades.dll
