@@ -1,4 +1,4 @@
-﻿using lib_entidades;
+﻿using lib_entidades.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -20,7 +20,6 @@ namespace lib_repositorios
         protected DbSet<Imagenes>? Imagenes { get; set; }
         protected DbSet<Promociones>? Promociones { get; set; }
         protected DbSet<Paginas>? Paginas { get; set; }
-
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {
