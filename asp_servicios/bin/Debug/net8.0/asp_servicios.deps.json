@@ -11,7 +11,7 @@
           "lib_aplicaciones": "1.0.0",
           "lib_entidades": "1.0.0",
           "lib_repositorios": "1.0.0",
-          "lib_utilizades": "1.0.0"
+          "lib_utilidades": "1.0.0"
         },
         "runtime": {
           "asp_servicios.dll": {}
@@ -546,12 +546,12 @@
           }
         }
       },
-      "lib_utilizades/1.0.0": {
+      "lib_utilidades/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "lib_utilizades.dll": {
+          "lib_utilidades.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -972,7 +972,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "lib_utilizades/1.0.0": {
+    "lib_utilidades/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

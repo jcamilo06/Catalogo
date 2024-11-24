@@ -71,5 +71,5 @@ C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Cat
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\obj\Debug\net8.0\asp_servicios.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\obj\Debug\net8.0\ref\asp_servicios.dll
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\bin\Debug\net8.0\lib_utilizades.dll
-C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\bin\Debug\net8.0\lib_utilizades.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_servicios\bin\Debug\net8.0\lib_utilidades.pdb

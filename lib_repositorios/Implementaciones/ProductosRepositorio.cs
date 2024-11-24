@@ -7,10 +7,12 @@ namespace lib_repositorios.Implementaciones
     public class ProductosRepositorio : IProductosRepositorio
     {
         private Conexion? conexion = null;
+        private IAuditoriasRepositorio? iAuditoriasRepositorio = null;
 
-        public ProductosRepositorio(Conexion conexion)
+        public ProductosRepositorio(Conexion conexion, IAuditoriasRepositorio iAuditoriasRepositorio)
         {
             this.conexion = conexion;
+            this.iAuditoriasRepositorio = iAuditoriasRepositorio;
         }
 
         public void Configurar(string string_conexion)
@@ -20,7 +22,13 @@ namespace lib_repositorios.Implementaciones
 
         public List<Productos> Listar()
         {
-            return conexion!.Listar<Productos>();
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Productos",
+                Referencia = 0,
+                Accion = "Listar"
+            });
+            return Buscar(x => x != null);
         }
 
         public List<Productos> Buscar(Expression<Func<Productos, bool>> condiciones)
@@ -30,6 +38,12 @@ namespace lib_repositorios.Implementaciones
 
         public Productos Guardar(Productos entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Productos",
+                Referencia = entidad.Id,
+                Accion = "Guardar"
+            });
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -37,6 +51,12 @@ namespace lib_repositorios.Implementaciones
 
         public Productos Modificar(Productos entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Productos",
+                Referencia = entidad.Id,
+                Accion = "Modificar"
+            });
             conexion!.Modificar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -44,6 +64,12 @@ namespace lib_repositorios.Implementaciones
 
         public Productos Borrar(Productos entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Productos",
+                Referencia = entidad.Id,
+                Accion = "Borrar"
+            });
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
             return entidad;

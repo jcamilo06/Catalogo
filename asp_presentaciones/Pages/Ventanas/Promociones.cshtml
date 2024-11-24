@@ -47,7 +47,11 @@
                 <input type="hidden"
                        asp-for="@Model.Actual!.Nombre" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Contacto" />
+                       asp-for="@Model.Actual!.Descuento" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Inicio" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Final" />
             }
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
@@ -68,12 +72,32 @@
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Direccion
+                                Descuento
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmDireccion"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Contacto" />
+                                       asp-for="@Model.Actual!.Descuento" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Fecha de inicio
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmDireccion"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Inicio" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Fecha de cierre
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmDireccion"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Final" />
                             </div>
                         </div>
                     </div>
@@ -103,6 +127,15 @@
                             </h4>
                             <h6 align="left">
                                 @Model.Actual!.Nombre
+                            </h6>
+                            <h6 align="left">
+                                @Model.Actual!.Descuento
+                            </h6>
+                            <h6 align="left">
+                                @Model.Actual!.Inicio
+                            </h6>
+                            <h6 align="left">
+                                @Model.Actual!.Final
                             </h6>
                             <br />
                             <br />
@@ -134,20 +167,14 @@
                             <th>
                                 Nombre
                             </th>
-                            <th class="cl_hidden">
-                                Direccion
-                            </th>
-                            <th class="cl_hidden">
-                                Telefono
+                            <th>
+                                Descuento
                             </th>
                             <th>
-                                Fecha
+                                Fecha de inicio
                             </th>
-                            <th class="cl_hidden">
-                                Activa
-                            </th>
-                            <th class="cl_actions">
-                                Accion
+                            <th>
+                                Fecha de cierre
                             </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -158,8 +185,14 @@
                                     <td>
                                         @elemento.Nombre
                                     </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Contacto
+                                    <td>
+                                        @elemento.Descuento
+                                    </td>
+                                    <td>
+                                        @elemento.Inicio
+                                    </td>
+                                    <td>
+                                        @elemento.Final
                                     </td>
                                     <td>
                                         <input type="submit"

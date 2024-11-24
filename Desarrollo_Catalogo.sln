@@ -23,13 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Servicios", "2 Servicios"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentaciones", "1 Presentaciones", "{19DE0B81-974F-40B1-9F38-6775E4663909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_comunicaciones", "lib_comunicaciones\lib_comunicaciones.csproj", "{947EB947-F155-4AB5-BFA5-2697D699A3A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_comunicaciones", "lib_comunicaciones\lib_comunicaciones.csproj", "{947EB947-F155-4AB5-BFA5-2697D699A3A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{D7027BD6-3AFB-4725-943E-841EACD271B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_presentaciones", "lib_presentaciones\lib_presentaciones.csproj", "{D7027BD6-3AFB-4725-943E-841EACD271B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_lenguajes", "lib_lenguajes\lib_lenguajes.csproj", "{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_presentaciones", "asp_presentaciones\asp_presentaciones.csproj", "{F5E38C00-1D72-4983-9849-EC46D5148C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_presentaciones", "asp_presentaciones\asp_presentaciones.csproj", "{F5E38C00-1D72-4983-9849-EC46D5148C19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,10 +67,6 @@ Global
 		{D7027BD6-3AFB-4725-943E-841EACD271B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7027BD6-3AFB-4725-943E-841EACD271B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7027BD6-3AFB-4725-943E-841EACD271B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5E38C00-1D72-4983-9849-EC46D5148C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5E38C00-1D72-4983-9849-EC46D5148C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E38C00-1D72-4983-9849-EC46D5148C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -90,7 +84,6 @@ Global
 		{46840315-8370-4478-BAB8-B352FB568585} = {8111CEEF-A599-4736-8EEC-0A74D3C09DDD}
 		{947EB947-F155-4AB5-BFA5-2697D699A3A9} = {19DE0B81-974F-40B1-9F38-6775E4663909}
 		{D7027BD6-3AFB-4725-943E-841EACD271B8} = {19DE0B81-974F-40B1-9F38-6775E4663909}
-		{CC5CA897-7AAA-4F9A-AB4D-CDABC3972F00} = {D9CE1186-7A66-4510-8BD4-42D2012C735C}
 		{F5E38C00-1D72-4983-9849-EC46D5148C19} = {19DE0B81-974F-40B1-9F38-6775E4663909}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

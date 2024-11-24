@@ -7,10 +7,12 @@ namespace lib_repositorios.Implementaciones
     public class PromocionesRepositorio : IPromocionesRepositorio
     {
         private Conexion? conexion = null;
+        private IAuditoriasRepositorio? iAuditoriasRepositorio = null;
 
-        public PromocionesRepositorio(Conexion conexion)
+        public PromocionesRepositorio(Conexion conexion, IAuditoriasRepositorio iAuditoriasRepositorio)
         {
             this.conexion = conexion;
+            this.iAuditoriasRepositorio = iAuditoriasRepositorio;
         }
 
         public void Configurar(string string_conexion)
@@ -20,6 +22,12 @@ namespace lib_repositorios.Implementaciones
 
         public List<Promociones> Listar()
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Promociones",
+                Referencia = 0,
+                Accion = "Listar"
+            });
             return conexion!.Listar<Promociones>();
         }
 
@@ -30,6 +38,12 @@ namespace lib_repositorios.Implementaciones
 
         public Promociones Guardar(Promociones entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Promociones",
+                Referencia = entidad.Id,
+                Accion = "Guardar"
+            });
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -37,6 +51,12 @@ namespace lib_repositorios.Implementaciones
 
         public Promociones Modificar(Promociones entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Promociones",
+                Referencia = entidad.Id,
+                Accion = "Modificar"
+            });
             conexion!.Modificar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -44,6 +64,12 @@ namespace lib_repositorios.Implementaciones
 
         public Promociones Borrar(Promociones entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Promociones",
+                Referencia = entidad.Id,
+                Accion = "Borrar"
+            });
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
             return entidad;

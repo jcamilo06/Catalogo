@@ -125,6 +125,11 @@ VALUES
 
 SELECT * FROM [Paginas]
 
-/*
-
-*/
+CREATE TABLE [Auditorias]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1),
+	[Tabla] NVARCHAR(50) NOT NULL,
+	[Referencia] INT NOT NULL,
+	[Accion] NVARCHAR(50) NOT NULL
+)
+GO

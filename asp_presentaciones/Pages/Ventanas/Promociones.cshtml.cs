@@ -35,7 +35,9 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Filtro!.Nombre = Filtro!.Nombre ?? "";
-                Filtro!.Contacto = Filtro!.Contacto ?? "";
+                // Filtro!.Descuento = Filtro!.Descuento;
+                // Filtro!.Inicio = Filtro!.Inicio;
+                // Filtro!.Final = Filtro!.Final;
 
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");

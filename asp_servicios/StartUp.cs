@@ -26,6 +26,7 @@ namespace asp_servicios
             // services.AddSwaggerGen();
             services.AddScoped<Conexion, Conexion>();
             // Repositorios
+            services.AddScoped<IAuditoriasRepositorio, AuditoriasRepositorio>();
             services.AddScoped<IFabricantesRepositorio, FabricantesRepositorio>();
             services.AddScoped<IImagenesRepositorio, ImagenesRepositorio>();
             services.AddScoped<IPaginasRepositorio, PaginasRepositorio>();

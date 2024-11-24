@@ -35,7 +35,6 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Filtro!.Nombre = Filtro!.Nombre ?? "";
-                Filtro!.Contacto = Filtro!.Contacto ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
@@ -56,7 +55,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Tipos_producto()
                 {
-                    // Fecha = DateTime.Now,
+                    // Nombre = DateTime.Now,
                 };
             }
             catch (Exception ex)

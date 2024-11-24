@@ -14,6 +14,7 @@ namespace lib_repositorios
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
 
+        protected DbSet<Auditorias>? Auditorias { get; set; }
         protected DbSet<Tipos_producto>? Tipos_producto { get; set; }
         protected DbSet<Fabricantes>? Fabricantes { get; set; }
         protected DbSet<Productos>? Productos { get; set; }
@@ -34,6 +35,40 @@ namespace lib_repositorios
         public virtual List<T> Buscar<T>(Expression<Func<T, bool>> condiciones) where T : class, new()
         {
             return this.Set<T>().Where(condiciones).ToList();
+        }
+
+        //public virtual List<Tipos_producto> Buscar(Expression<Func<Tipos_producto, bool>> condiciones)
+        //{
+        //    return this.Set<Tipos_producto>()
+        //        .Include(x => x.Productos)
+        //        .Where(condiciones)
+        //        .ToList();
+        //}
+        public virtual List<Productos> Buscar(Expression<Func<Productos, bool>> condiciones)
+        {
+            return this.Set<Productos>()
+                .Include(x => x._Tipo_producto)
+                .Include(x => x._Fabricante)
+                //.Include(x => x.Paginas)
+                .Where(condiciones)
+                .ToList();
+        }
+
+        public virtual List<Paginas> Buscar(Expression<Func<Paginas, bool>> condiciones)
+        {
+            return this.Set<Paginas>()
+                .Include(x => x._Imagen)
+                //.Include(t => t._Imagen!.Paginas)
+                .Include(x => x._Producto)
+                //.Include(x => x._Producto!.Paginas)
+                .Include(x => x._Producto!._Tipo_producto)
+                //.Include(x => x._Producto!._Tipo_producto!.Productos)
+                .Include(x => x._Producto!._Fabricante)
+                //.Include(x => x._Producto!._Fabricante!.Productos)
+                .Include(x => x._Promocion)
+                //.Include(x => x._Promocion!.Paginas)
+                .Where(condiciones)
+                .ToList();
         }
 
         public virtual bool Existe<T>(Expression<Func<T, bool>> condiciones) where T : class, new()

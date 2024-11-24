@@ -59,5 +59,14 @@ namespace lib_lenguajes {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a kusdgjksghdfjhgsjhdgfsd.
+        /// </summary>
+        internal static string lbMensaje {
+            get {
+                return ResourceManager.GetString("lbMensaje", resourceCulture);
+            }
+        }
     }
 }

@@ -7,10 +7,12 @@ namespace lib_repositorios.Implementaciones
     public class PaginasRepositorio : IPaginasRepositorio
     {
         private Conexion? conexion = null;
+        private IAuditoriasRepositorio? iAuditoriasRepositorio = null;
 
-        public PaginasRepositorio(Conexion conexion)
+        public PaginasRepositorio(Conexion conexion, IAuditoriasRepositorio iAuditoriasRepositorio)
         {
             this.conexion = conexion;
+            this.iAuditoriasRepositorio = iAuditoriasRepositorio;
         }
 
         public void Configurar(string string_conexion)
@@ -20,7 +22,13 @@ namespace lib_repositorios.Implementaciones
 
         public List<Paginas> Listar()
         {
-            return conexion!.Listar<Paginas>();
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Paginas",
+                Referencia = 0,
+                Accion = "Listar"
+            });
+            return Buscar(x => x != null);
         }
 
         public List<Paginas> Buscar(Expression<Func<Paginas, bool>> condiciones)
@@ -30,6 +38,12 @@ namespace lib_repositorios.Implementaciones
 
         public Paginas Guardar(Paginas entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Paginas",
+                Referencia = entidad.Id,
+                Accion = "Guardar"
+            });
             conexion!.Guardar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -37,6 +51,12 @@ namespace lib_repositorios.Implementaciones
 
         public Paginas Modificar(Paginas entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Paginas",
+                Referencia = entidad.Id,
+                Accion = "Modificar"
+            });
             conexion!.Modificar(entidad);
             conexion!.GuardarCambios();
             return entidad;
@@ -44,6 +64,12 @@ namespace lib_repositorios.Implementaciones
 
         public Paginas Borrar(Paginas entidad)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Paginas",
+                Referencia = entidad.Id,
+                Accion = "Borrar"
+            });
             conexion!.Borrar(entidad);
             conexion!.GuardarCambios();
             return entidad;

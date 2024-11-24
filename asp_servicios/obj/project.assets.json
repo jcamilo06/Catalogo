@@ -1024,16 +1024,6 @@
           "bin/placeholder/lib_entidades.dll": {}
         }
       },
-      "lib_lenguajes/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/lib_lenguajes.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/lib_lenguajes.dll": {}
-        }
-      },
       "lib_repositorios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1052,8 +1042,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "lib_lenguajes": "1.0.0"
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/lib_utilidades.dll": {}
@@ -2856,11 +2845,6 @@
       "path": "../lib_entidades/lib_entidades.csproj",
       "msbuildProject": "../lib_entidades/lib_entidades.csproj"
     },
-    "lib_lenguajes/1.0.0": {
-      "type": "project",
-      "path": "../lib_lenguajes/lib_lenguajes.csproj",
-      "msbuildProject": "../lib_lenguajes/lib_lenguajes.csproj"
-    },
     "lib_repositorios/1.0.0": {
       "type": "project",
       "path": "../lib_repositorios/lib_repositorios.csproj",
@@ -2961,7 +2945,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

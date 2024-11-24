@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\bin\Debug\net8.0\lib_lenguajes.deps.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\bin\Debug\net8.0\lib_lenguajes.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\bin\Debug\net8.0\lib_lenguajes.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.RsErrores.resources
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.RsFabricantes.resources
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.RsMenu.resources
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.sourcelink.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\refint\lib_lenguajes.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\lib_lenguajes.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_lenguajes\obj\Debug\net8.0\ref\lib_lenguajes.dll
