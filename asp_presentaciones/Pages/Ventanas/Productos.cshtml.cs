@@ -34,11 +34,10 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
-                Filtro!.Nombre = Filtro!.Nombre ?? "";
-                Filtro!.Contacto = Filtro!.Contacto ?? "";
+                Filtro!.Nombre_producto = Filtro!.Nombre_producto ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
+                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE_PRODUCTO");
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
@@ -56,7 +55,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Productos()
                 {
-                    // Fecha = DateTime.Now,
+                    // Nombre = DateTime.Now,
                 };
             }
             catch (Exception ex)

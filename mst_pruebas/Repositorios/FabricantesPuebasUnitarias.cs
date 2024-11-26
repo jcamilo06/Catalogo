@@ -16,7 +16,8 @@ namespace mst_pruebas.Repositorios
         {
             var conexion = new Conexion();
             conexion.StringConnection = "server=DESKTOP-4PBEEL2\\DEV;database=db_catalogo;uid=sa;pwd=LOmejordelomejoR;TrustServerCertificate=true;";
-            iRepositorio = new FabricantesRepositorio(conexion);
+            var auditoria = new AuditoriasRepositorio(conexion);
+            iRepositorio = new FabricantesRepositorio(conexion, auditoria);
         }
 
         [TestMethod]
@@ -33,8 +34,8 @@ namespace mst_pruebas.Repositorios
         {
             entidad = new Fabricantes()
             {
-                 Nombre = "Prueba",
-                 Contacto = "300 000 0000"
+                Nombre = "Prueba",
+                Contacto = "300 000 0000"
             };
             entidad = iRepositorio!.Guardar(entidad);
             Assert.IsTrue(entidad.Id != 0);

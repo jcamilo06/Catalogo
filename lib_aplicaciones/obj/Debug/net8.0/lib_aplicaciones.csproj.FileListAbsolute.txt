@@ -16,3 +16,21 @@ C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Cat
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.deps.json
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.sourcelink.json
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_apli.7723F211.Up2Date
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll

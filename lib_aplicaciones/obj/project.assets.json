@@ -2789,11 +2789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_aplicaciones\\lib_aplicaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\lib_aplicaciones.csproj",
       "projectName": "lib_aplicaciones",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_aplicaciones\\lib_aplicaciones.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\lib_aplicaciones.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_aplicaciones\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2815,11 +2815,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_entidades\\lib_entidades.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_entidades\\lib_entidades.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\lib_entidades.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\lib_entidades.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\\Catalogo\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\lib_repositorios.csproj"
             }
           }
         }

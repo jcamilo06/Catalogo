@@ -11,3 +11,16 @@ C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Cat
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_utilizades\obj\Debug\net8.0\refint\lib_utilidades.dll
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.pdb
 C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_utilizades\obj\Debug\net8.0\ref\lib_utilidades.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\bin\Debug\net8.0\lib_utilidades.deps.json
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.sourcelink.json
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\refint\lib_utilidades.dll
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Desktop\Catalogo\lib_utilizades\obj\Debug\net8.0\ref\lib_utilidades.dll

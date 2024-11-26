@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lib_comunicaciones
-build_property.ProjectDir = C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\lib_comunicaciones\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\Catalogo\lib_comunicaciones\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

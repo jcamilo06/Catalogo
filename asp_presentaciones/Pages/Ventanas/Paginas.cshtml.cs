@@ -35,15 +35,9 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Filtro!.Titulo = Filtro!.Titulo ?? "";
-                Filtro!.Fecha = DateTime.Now;
-                Filtro!.Costo = Filtro!.Costo ?? 0.0f;
-                Filtro!.Ciudad = Filtro!.Ciudad ?? "";
-                Filtro!.Producto = Filtro!.Producto ?? 0;
-                Filtro!.Imagen = Filtro!.Imagen ?? 0;
-                Filtro!.Promocion = Filtro!.Promocion ?? 0;
 
-        Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
+                Accion = Enumerables.Ventanas.Listas;
+                var task = this.iPresentacion!.Buscar(Filtro!, "TITULO");
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
@@ -61,7 +55,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Paginas()
                 {
-                    // Fecha = DateTime.Now,
+                    // Nombre = DateTime.Now,
                 };
             }
             catch (Exception ex)

@@ -15,7 +15,8 @@ namespace mst_pruebas.Repositorios
         {
             var conexion = new Conexion();
             conexion.StringConnection = "server=DESKTOP-4PBEEL2\\DEV;database=db_catalogo;uid=sa;pwd=LOmejordelomejoR;TrustServerCertificate=true;";
-            iRepositorio = new Tipos_productoRepositorio(conexion);
+            var auditoria = new AuditoriasRepositorio(conexion);
+            iRepositorio = new Tipos_productoRepositorio(conexion, auditoria);
         }
 
         [TestMethod]

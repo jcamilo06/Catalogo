@@ -17,7 +17,7 @@ namespace mst_pruebas.Comunicaciones
         [TestMethod]
         public void Executar()
         {
-            // Guardar();
+            Guardar();
             Listar();
             Buscar();
             Modificar();
@@ -37,7 +37,7 @@ namespace mst_pruebas.Comunicaciones
         {
             var datos = new Dictionary<string, object>();
             datos["Entidad"] = entidad!;
-            datos["Tipo"] = "NOMBRE";
+            datos["Tipo"] = "Prueba";
             var task = iComunicacion!.Buscar(datos);
             task.Wait();
             datos = task.Result;
@@ -45,20 +45,14 @@ namespace mst_pruebas.Comunicaciones
             lista = JsonConversor.ConvertirAObjeto<List<Fabricantes>>(
                 JsonConversor.ConvertirAString(datos["Entidades"]));
         }
-        /*
+        
         public void Guardar()
         {
             var datos = new Dictionary<string, object>();
             entidad = new Fabricantes()
             {
-                Persona = "Test 2",
-                Nota1 = 1.2m,
-                Nota2 = 2.5m,
-                Nota3 = 4.5m,
-                Nota4 = 3.8m,
-                Nota5 = 4.3m,
-                Final = 0.0m,
-                Fecha = DateTime.Now,
+                Nombre = "Juan",
+                Contacto = "303 523 8991"
             };
             datos["Entidad"] = entidad!;
             var task = iComunicacion!.Guardar(datos);
@@ -68,7 +62,7 @@ namespace mst_pruebas.Comunicaciones
             entidad = JsonConversor.ConvertirAObjeto<Fabricantes>(
                 JsonConversor.ConvertirAString(datos["Entidad"]));
         }
-        */
+        
         public void Modificar()
         {
             var datos = new Dictionary<string, object>();

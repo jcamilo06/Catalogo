@@ -1,0 +1,84 @@
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.staticwebassets.runtime.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.exe
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.deps.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.runtimeconfig.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_comunicaciones.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_presentaciones.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_comunicaciones.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_presentaciones.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.RazorAssemblyInfo.cs
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.sourcelink.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.asp_presentaciones.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.build.asp_presentaciones.props
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.asp_presentaciones.props
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.asp_presentaciones.props
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\bundle\asp_presentaciones.styles.css
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\projectbundle\asp_presentaciones.bundle.scp.css
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_pres.00303A48.Up2Date
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\refint\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.pdb
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\grupo 6-8 catálogo Luisa Sebastian Santiago Camilo\Catalogo\asp_presentaciones\obj\Debug\net8.0\ref\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.staticwebassets.runtime.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.exe
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.deps.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.runtimeconfig.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\asp_presentaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_comunicaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_entidades.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_presentaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_utilidades.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_comunicaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_entidades.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_presentaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\bin\Debug\net8.0\lib_utilidades.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.RazorAssemblyInfo.cs
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.sourcelink.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.asp_presentaciones.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.build.asp_presentaciones.props
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.asp_presentaciones.props
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.asp_presentaciones.props
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\bundle\asp_presentaciones.styles.css
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\scopedcss\projectbundle\asp_presentaciones.bundle.scp.css
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_pres.00303A48.Up2Date
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\refint\asp_presentaciones.dll
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.pdb
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\asp_presentaciones.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Catalogo\asp_presentaciones\obj\Debug\net8.0\ref\asp_presentaciones.dll

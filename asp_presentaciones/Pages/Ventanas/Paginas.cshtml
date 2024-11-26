@@ -45,35 +45,95 @@
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Nombre" />
+                       asp-for="@Model.Actual!.Titulo" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Contacto" />
+                       asp-for="@Model.Actual!.Fecha" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Costo" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Ciudad" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!._Producto!.Nombre_producto" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!._Imagen!.Nombre" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!._Promocion!.Nombre" />
             }
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Casa</h3>
+                    <h3>Pagina</h3>
 
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Nombre
+                                Titulo
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmNombre"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Nombre" />
+                                       asp-for="@Model.Actual!.Titulo" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Direccion
+                                Fecha
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmDireccion"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Contacto" />
+                                       asp-for="@Model.Actual!.Fecha" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Costo
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmTelefono"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Costo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Ciudad
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmFecha"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Ciudad" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Producto
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmActiva"
+                                       type="checkbox"
+                                       asp-for="@Model.Actual!._Producto!.Nombre_producto" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Imagen
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmActiva"
+                                       type="checkbox"
+                                       asp-for="@Model.Actual!._Imagen!.Nombre" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Promocion
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmActiva"
+                                       type="checkbox"
+                                       asp-for="@Model.Actual!._Promocion!.Nombre" />
                             </div>
                         </div>
                     </div>
@@ -84,8 +144,7 @@
             {
                 <input type="hidden"
                        asp-for="@Model.Accion" />
-                @await Html.PartialAsync(
-                         "../Emergentes/Mensajes.cshtml")
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
                 ;
             }
 
@@ -102,7 +161,7 @@
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.Nombre
+                                @Model.Actual!.Titulo
                             </h6>
                             <br />
                             <br />
@@ -124,7 +183,7 @@
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.Nombre"
+                       asp-for="@Model.Filtro!.Titulo"
                        placeholder="Nombre" />
                 <br />
 
@@ -132,22 +191,25 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Nombre
+                                Titulo
                             </th>
                             <th class="cl_hidden">
-                                Direccion
-                            </th>
-                            <th class="cl_hidden">
-                                Telefono
-                            </th>
-                            <th>
                                 Fecha
                             </th>
                             <th class="cl_hidden">
-                                Activa
+                                Costo
+                            </th>
+                            <th>
+                                Ciudad
+                            </th>
+                            <th class="cl_hidden">
+                                Producto
                             </th>
                             <th class="cl_actions">
-                                Accion
+                                Imagen
+                            </th>
+                            <th class="cl_actions">
+                                Promocion
                             </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -156,10 +218,25 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.Nombre
+                                        @elemento.Titulo
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Contacto
+                                        @elemento.Fecha
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.Costo
+                                    </td>
+                                    <td>
+                                        @elemento.Ciudad
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento._Producto!.Nombre_producto
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento._Imagen!.Nombre
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento._Promocion!.Nombre
                                     </td>
                                     <td>
                                         <input type="submit"
