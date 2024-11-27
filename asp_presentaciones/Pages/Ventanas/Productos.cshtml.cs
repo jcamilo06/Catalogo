@@ -55,7 +55,7 @@ namespace asp_presentacion.Pages.Ventanas
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Productos()
                 {
-                    // Nombre = DateTime.Now,
+                    //Nombre_producto = DateTime.Now,
                 };
             }
             catch (Exception ex)

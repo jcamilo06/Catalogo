@@ -21,6 +21,7 @@ namespace lib_repositorios
         protected DbSet<Imagenes>? Imagenes { get; set; }
         protected DbSet<Promociones>? Promociones { get; set; }
         protected DbSet<Paginas>? Paginas { get; set; }
+        protected DbSet<Usuarios>? Usuarios { get; set; }
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {

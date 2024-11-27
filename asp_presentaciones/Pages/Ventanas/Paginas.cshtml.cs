@@ -23,6 +23,7 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
+        public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public Paginas? Actual { get; set; }
         [BindProperty] public Paginas? Filtro { get; set; }
@@ -80,6 +81,15 @@ namespace asp_presentacion.Pages.Ventanas
 
         public virtual void OnPostBtGuardar()
         {
+            Accion = Enumerables.Ventanas.Editar;
+            if (FormFile != null)
+            {
+                var memoryStream = new MemoryStream();
+                FormFile.CopyToAsync(memoryStream).Wait();
+                Actual!._Imagen!.Url = EncodingHelper.ToString(memoryStream.ToArray());
+                memoryStream.Dispose();
+            }
+
             try
             {
                 Accion = Enumerables.Ventanas.Editar;

@@ -15,7 +15,7 @@ namespace lib_entidades.Modelos
         public int Fabricante { get; set; }
         [ForeignKey("Tipo_producto")] public Tipos_producto? _Tipo_producto { get; set; }
         [ForeignKey("Fabricante")] public Fabricantes? _Fabricante { get; set; }
-        [NotMapped] public virtual ICollection<Paginas>? Paginas { get; set; }
+        //[NotMapped] public virtual ICollection<Paginas>? Paginas { get; set; }
 
         public bool Validar()
         {

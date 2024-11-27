@@ -65,17 +65,19 @@ CREATE TABLE [Imagenes]
 (
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	[Nombre] NVARCHAR(50),
-	[Url] NVARCHAR(250) NOT NULL UNIQUE,
+	[Url] NVARCHAR(250),
 	CONSTRAINT [PK_Imagenes] PRIMARY KEY CLUSTERED ([Id])
 )
 GO
 
+DROP TABLE [Imagenes]
+
 INSERT INTO [Imagenes] ([Nombre], [Url])
 VALUES
-	('Imagen1', 'http://imagen1.com'),
-	('Imagen2', 'http://imagen2.com'),
-	('Imagen3', 'http://imagen3.com'),
-	('Imagen4', 'http://imagen4.com');
+	('Imagen1', NULL),
+	('Imagen2', NULL),
+	('Imagen3', NULL),
+	('Imagen4', NULL);
 
 SELECT * FROM [Imagenes]
 

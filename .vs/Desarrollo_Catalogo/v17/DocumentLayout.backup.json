@@ -3,88 +3,204 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Catalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\paginas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\paginas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\paginas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\paginas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\paginas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\paginas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\promociones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\promociones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\paginaspuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\paginaspuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\paginasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\paginasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_aplicaciones\\implementaciones\\paginasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\paginasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\productos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\productos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\paginaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\comunicaciones\\paginaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\index - copia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\index - copia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\index - copia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\index - copia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\usuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\fabricantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\fabricantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\paginas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\paginas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\promociones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\promociones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\tipos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\usuariospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\comunicaciones\\usuariospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7027BD6-3AFB-4725-943E-841EACD271B8}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_presentaciones\\implementaciones\\usuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7027BD6-3AFB-4725-943E-841EACD271B8}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\usuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_comunicaciones\\implementaciones\\usuarioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\implementaciones\\usuarioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\paginaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\comunicaciones\\paginaspruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\productospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\comunicaciones\\productospruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_comunicaciones\\interfaces\\iusuarioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947EB947-F155-4AB5-BFA5-2697D699A3A9}|lib_comunicaciones\\lib_comunicaciones.csproj|solutionrelative:lib_comunicaciones\\interfaces\\iusuarioscomunicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\usuariospuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\usuariospuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\auditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\auditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\fabricantespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\fabricantespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\fabricantespruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\comunicaciones\\fabricantespruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\tipos_producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7027BD6-3AFB-4725-943E-841EACD271B8}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_presentaciones\\interfaces\\iusuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7027BD6-3AFB-4725-943E-841EACD271B8}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\iusuariospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\paginas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\paginas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_aplicaciones\\implementaciones\\usuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\usuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_aplicaciones\\interfaces\\iusuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iusuariosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\fabricantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\fabricantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\interfaces\\iusuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iusuariosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\tipos_productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\tipos_productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\promocionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\promocionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\paginasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\paginasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\imagenesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\imagenesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\pages\\ventanas\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\controllers\\paginascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\paginascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\paginaspuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\paginaspuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_aplicaciones\\implementaciones\\paginasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\paginasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\comunicaciones\\imagenespruebaunitaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,14 +219,6 @@
       "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\tipos_productopuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\tipos_productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\tipos_productorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\fabricantespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\fabricantespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|c:\\users\\usuario\\desktop\\catalogo\\mst_pruebas\\repositorios\\imagenespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19CA4799-F249-429E-899B-E6DD4CFBFAA9}|mst_pruebas\\mst_pruebas.csproj|solutionrelative:mst_pruebas\\repositorios\\imagenespuebasunitarias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,44 +235,16 @@
       "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\tipos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\tipos_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80CD3801-21B3-4D3C-B9A0-F57B7BABDC68}|lib_utilizades\\lib_utilidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_utilizades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80CD3801-21B3-4D3C-B9A0-F57B7BABDC68}|lib_utilizades\\lib_utilidades.csproj|solutionrelative:lib_utilizades\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_presentaciones\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F5E38C00-1D72-4983-9849-EC46D5148C19}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\fabricantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\fabricantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_aplicaciones\\implementaciones\\productosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{616D699F-01DA-4BF6-B381-1AB469E5A873}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\productosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\promocionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\promocionesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|c:\\users\\usuario\\desktop\\catalogo\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46840315-8370-4478-BAB8-B352FB568585}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\productosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\imagenesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\imagenesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\fabricantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\fabricantesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\basedatoscatalogo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
@@ -175,16 +255,8 @@
       "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\catalogo diagrama mer.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\implementaciones\\auditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\auditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_repositorios\\interfaces\\iauditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD769DAE-ED43-41CE-9A68-A01FEDF520D1}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iauditoriasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|c:\\users\\usuario\\desktop\\catalogo\\lib_entidades\\modelos\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32FC7501-A70E-42B5-889A-EB686B3AF751}|lib_entidades\\lib_entidades.csproj|solutionrelative:lib_entidades\\modelos\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,148 +266,603 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Paginas.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Paginas.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Paginas.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Paginas.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Paginas.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAEwB4AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Index - Copia.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index - Copia.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Index - Copia.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index - Copia.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Index - Copia.cshtml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:29:19.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PaginasPruebaUnitaria.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
-              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
-              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowFkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:09:33.798Z"
+              "WhenOpened": "2024-11-27T00:33:55.903Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Tipos_producto.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowGMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:18:23.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tipos_producto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T11:58:10.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T12:36:32.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Productos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs*",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs*",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwDkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:47:57.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Paginas.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml.cs",
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAhwHcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T19:51:08.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Paginas.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T19:50:43.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Productos.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Productos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Productos.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Productos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:26:49.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Imagenes.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Imagenes.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Imagenes.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Imagenes.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Imagenes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:39:57.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Promociones.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Promociones.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Promociones.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Promociones.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Promociones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:39:40.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\StartUp.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\StartUp.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\StartUp.cs",
-              "RelativeToolTip": "asp_servicios\\StartUp.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAApwDoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:58:49.559Z",
+              "WhenOpened": "2024-11-25T19:51:08.669Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T12:36:32.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Comunicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Comunicaciones.cs",
-              "RelativeDocumentMoniker": "lib_comunicaciones\\Comunicaciones.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Comunicaciones.cs",
-              "RelativeToolTip": "lib_comunicaciones\\Comunicaciones.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:59:17.233Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Index - Copia.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index - Copia.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Index - Copia.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index - Copia.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Index - Copia.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T00:53:59.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:28:48.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Index.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T18:27:38.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Conexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Conexion.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Conexion.cs",
               "RelativeToolTip": "lib_repositorios\\Conexion.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAmwBQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wBcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:34:39.612Z"
+              "WhenOpened": "2024-11-24T18:34:39.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "UsuariosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\UsuariosRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\UsuariosRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\UsuariosRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\UsuariosRepositorio.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:05:36.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Auditorias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Auditorias.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Auditorias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Auditorias.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Auditorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:50:31.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Fabricantes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Fabricantes.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Fabricantes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Fabricantes.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Fabricantes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:37:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Imagenes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Imagenes.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Imagenes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Imagenes.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Imagenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:39:57.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Paginas.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Paginas.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Paginas.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Paginas.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Paginas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA4wB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:29:19.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Productos.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Productos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Productos.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Productos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:26:49.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Promociones.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Promociones.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Promociones.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Promociones.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Promociones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:39:40.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tipos_producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Tipos_producto.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Tipos_producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Tipos_producto.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Tipos_producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:08:34.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Usuarios.cs",
+              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Usuarios.cs",
+              "RelativeToolTip": "lib_entidades\\Modelos\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:56:15.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuariosPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\UsuariosPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\UsuariosPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\UsuariosPruebaUnitaria.cs",
+              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\UsuariosPruebaUnitaria.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwBYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:41:44.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuariosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\UsuariosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:10:23.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuariosComunicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Implementaciones\\UsuariosComunicacion.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Implementaciones\\UsuariosComunicacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Implementaciones\\UsuariosComunicacion.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Implementaciones\\UsuariosComunicacion.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:11:12.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Comunicaciones.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:59:17.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaginasPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
+              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\PaginasPruebaUnitaria.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:09:33.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductosPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
+              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:08:24.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUsuariosComunicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Interfaces\\IUsuariosComunicacion.cs",
+              "RelativeDocumentMoniker": "lib_comunicaciones\\Interfaces\\IUsuariosComunicacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_comunicaciones\\Interfaces\\IUsuariosComunicacion.cs",
+              "RelativeToolTip": "lib_comunicaciones\\Interfaces\\IUsuariosComunicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:10:41.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\StartUp.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\StartUp.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\StartUp.cs",
+              "RelativeToolTip": "asp_servicios\\StartUp.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:58:49.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsuariosPuebasUnitarias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\UsuariosPuebasUnitarias.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\UsuariosPuebasUnitarias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\UsuariosPuebasUnitarias.cs",
+              "RelativeToolTip": "mst_pruebas\\Repositorios\\UsuariosPuebasUnitarias.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:42:11.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuditoriasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:57:14.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FabricantesPuebasUnitarias.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
+              "RelativeToolTip": "mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:00:51.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FabricantesPruebaUnitaria.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
+              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
+              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T01:52:04.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "asp_presentaciones\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "asp_presentaciones\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T12:41:21.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUsuariosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_presentaciones\\Interfaces\\IUsuariosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IUsuariosPresentacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_presentaciones\\Interfaces\\IUsuariosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Interfaces\\IUsuariosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:09:58.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\StartUp.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\StartUp.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\StartUp.cs",
+              "RelativeToolTip": "asp_presentaciones\\StartUp.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:43:31.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:09:14.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Paginas.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Paginas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T19:50:43.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UsuariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Implementaciones\\UsuariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\UsuariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Implementaciones\\UsuariosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\UsuariosAplicacion.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswD0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:07:53.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IUsuariosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Interfaces\\IUsuariosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\Interfaces\\IUsuariosAplicacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Interfaces\\IUsuariosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\Interfaces\\IUsuariosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:07:30.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUsuariosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Interfaces\\IUsuariosRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IUsuariosRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Interfaces\\IUsuariosRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IUsuariosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:05:02.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FabricantesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:15:13.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Tipos_productoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:15:36.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:15:40.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PromocionesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:01:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PaginasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAASwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:15:44.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ImagenesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:15:48.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T20:23:32.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaginasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Controllers\\PaginasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PaginasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Controllers\\PaginasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\PaginasController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:07:28.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "PaginasPuebasUnitarias.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\PaginasPuebasUnitarias.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\PaginasPuebasUnitarias.cs",
@@ -343,11 +870,12 @@
               "RelativeToolTip": "mst_pruebas\\Repositorios\\PaginasPuebasUnitarias.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAhwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:00:36.823Z"
+              "WhenOpened": "2024-11-25T18:00:36.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 48,
               "Title": "PaginasAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Implementaciones\\PaginasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\PaginasAplicacion.cs",
@@ -359,19 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaginasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PaginasRepositorio.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAhwD4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:15:44.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 52,
               "Title": "Tipos_productoPruebaUnitaria.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\Tipos_productoPruebaUnitaria.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\Tipos_productoPruebaUnitaria.cs",
@@ -379,47 +895,12 @@
               "RelativeToolTip": "mst_pruebas\\Comunicaciones\\Tipos_productoPruebaUnitaria.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:05:02.302Z"
+              "WhenOpened": "2024-11-25T02:05:02.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Productos.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:47:57.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Productos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Productos.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T20:23:32.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tipos_producto.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:18:23.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 49,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "asp_servicios\\Properties\\launchSettings.json",
@@ -431,43 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductosPruebaUnitaria.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
-              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
-              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\ProductosPruebaUnitaria.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:08:24.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FabricantesPruebaUnitaria.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
-              "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
-              "RelativeToolTip": "mst_pruebas\\Comunicaciones\\FabricantesPruebaUnitaria.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:52:04.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Tipos_producto.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Tipos_producto.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwC8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T11:58:10.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "ImagenesPruebaUnitaria.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\ImagenesPruebaUnitaria.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\ImagenesPruebaUnitaria.cs",
@@ -475,11 +920,12 @@
               "RelativeToolTip": "mst_pruebas\\Comunicaciones\\ImagenesPruebaUnitaria.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:07:32.608Z"
+              "WhenOpened": "2024-11-25T02:07:32.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 53,
               "Title": "Tipos_productoPuebasUnitarias.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\Tipos_productoPuebasUnitarias.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\Tipos_productoPuebasUnitarias.cs",
@@ -487,11 +933,12 @@
               "RelativeToolTip": "mst_pruebas\\Repositorios\\Tipos_productoPuebasUnitarias.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:58:53.253Z"
+              "WhenOpened": "2024-11-25T17:58:53.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 51,
               "Title": "PromocionesPruebaUnitaria.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Comunicaciones\\PromocionesPruebaUnitaria.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Comunicaciones\\PromocionesPruebaUnitaria.cs",
@@ -499,35 +946,12 @@
               "RelativeToolTip": "mst_pruebas\\Comunicaciones\\PromocionesPruebaUnitaria.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:06:29.138Z"
+              "WhenOpened": "2024-11-25T02:06:29.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FabricantesPuebasUnitarias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
-              "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
-              "RelativeToolTip": "mst_pruebas\\Repositorios\\FabricantesPuebasUnitarias.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:00:51.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Tipos_productoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Tipos_productoRepositorio.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAowEsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:15:36.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 54,
               "Title": "ImagenesPuebasUnitarias.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\ImagenesPuebasUnitarias.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\ImagenesPuebasUnitarias.cs",
@@ -535,11 +959,12 @@
               "RelativeToolTip": "mst_pruebas\\Repositorios\\ImagenesPuebasUnitarias.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:00:44.417Z"
+              "WhenOpened": "2024-11-25T18:00:44.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 55,
               "Title": "ProductosPuebasUnitarias.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\ProductosPuebasUnitarias.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\ProductosPuebasUnitarias.cs",
@@ -547,11 +972,12 @@
               "RelativeToolTip": "mst_pruebas\\Repositorios\\ProductosPuebasUnitarias.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:00:28.961Z"
+              "WhenOpened": "2024-11-25T18:00:28.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 56,
               "Title": "PromocionesPuebasUnitarias.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\mst_pruebas\\Repositorios\\PromocionesPuebasUnitarias.cs",
               "RelativeDocumentMoniker": "mst_pruebas\\Repositorios\\PromocionesPuebasUnitarias.cs",
@@ -559,11 +985,12 @@
               "RelativeToolTip": "mst_pruebas\\Repositorios\\PromocionesPuebasUnitarias.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:00:18.523Z"
+              "WhenOpened": "2024-11-25T18:00:18.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 57,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "asp_presentaciones\\Properties\\launchSettings.json",
@@ -575,19 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Tipos_producto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Tipos_producto.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Tipos_producto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Tipos_producto.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Tipos_producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:08:34.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 58,
               "Title": "DatosGenerales.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_utilizades\\DatosGenerales.cs",
               "RelativeDocumentMoniker": "lib_utilizades\\DatosGenerales.cs",
@@ -599,19 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "asp_presentaciones\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_presentaciones\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "asp_presentaciones\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T12:41:21.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 59,
               "Title": "ProductosAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_aplicaciones\\Implementaciones\\ProductosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\Implementaciones\\ProductosAplicacion.cs",
@@ -619,23 +1022,12 @@
               "RelativeToolTip": "lib_aplicaciones\\Implementaciones\\ProductosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:45:33.243Z"
+              "WhenOpened": "2024-11-24T18:45:33.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Fabricantes.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Fabricantes.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Fabricantes.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Fabricantes.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Fabricantes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:37:40.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 60,
               "Title": "TokenController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\asp_servicios\\Controllers\\TokenController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
@@ -647,67 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PromocionesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PromocionesRepositorio.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:01:50.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ImagenesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ImagenesRepositorio.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:15:48.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProductosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\ProductosRepositorio.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwB4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:15:40.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AuditoriasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\AuditoriasRepositorio.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:57:14.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "FabricantesRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\FabricantesRepositorio.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:15:13.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "IAuditoriasRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Interfaces\\IAuditoriasRepositorio.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IAuditoriasRepositorio.cs",
@@ -719,19 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Auditorias.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Auditorias.cs",
-              "RelativeDocumentMoniker": "lib_entidades\\Modelos\\Auditorias.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_entidades\\Modelos\\Auditorias.cs",
-              "RelativeToolTip": "lib_entidades\\Modelos\\Auditorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:50:31.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "BaseDatosCatalogo.sql",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\BaseDatosCatalogo.sql",
               "RelativeDocumentMoniker": "lib_repositorios\\BaseDatosCatalogo.sql",
@@ -742,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 62,
               "Title": "Catalogo Diagrama MER.png",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Catalogo\\lib_repositorios\\Catalogo Diagrama MER.png",
               "RelativeDocumentMoniker": "lib_repositorios\\Catalogo Diagrama MER.png",

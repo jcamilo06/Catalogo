@@ -33,6 +33,12 @@ namespace lib_repositorios.Implementaciones
 
         public List<Fabricantes> Buscar(Expression<Func<Fabricantes, bool>> condiciones)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Fabricantes",
+                Referencia = 0,
+                Accion = "Buscar"
+            });
             return conexion!.Buscar(condiciones);
         }
 

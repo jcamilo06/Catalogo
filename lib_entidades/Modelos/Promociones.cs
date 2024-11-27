@@ -10,7 +10,7 @@ namespace lib_entidades.Modelos
         public double Descuento { get; set; }
         public DateTime? Inicio { get; set; }
         public DateTime? Final { get; set; }
-        [NotMapped] public virtual ICollection<Paginas>? Paginas { get; set; }
+        //[NotMapped] public virtual ICollection<Paginas>? Paginas { get; set; }
 
         public bool Validar()
         {

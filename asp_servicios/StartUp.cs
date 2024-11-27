@@ -33,6 +33,7 @@ namespace asp_servicios
             services.AddScoped<IProductosRepositorio, ProductosRepositorio>();
             services.AddScoped<IPromocionesRepositorio, PromocionesRepositorio>();
             services.AddScoped<ITipos_productoRepositorio, Tipos_productoRepositorio>();
+            services.AddScoped<IUsuariosRepositorio, UsuariosRepositorio>();
             // Aplicaciones
             services.AddScoped<IFabricantesAplicacion, FabricantesAplicacion>();
             services.AddScoped<IImagenesAplicacion, ImagenesAplicacion>();
@@ -40,6 +41,7 @@ namespace asp_servicios
             services.AddScoped<IProductosAplicacion, ProductosAplicacion>();
             services.AddScoped<IPromocionesAplicacion, PromocionesAplicacion>();
             services.AddScoped<ITipos_productoAplicacion, Tipos_productoAplicacion>();
+            services.AddScoped<IUsuariosAplicacion, UsuariosAplicacion>();
             // Controladores
             services.AddScoped<TokenController, TokenController>();
 

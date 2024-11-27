@@ -33,6 +33,12 @@ namespace lib_repositorios.Implementaciones
 
         public List<Imagenes> Buscar(Expression<Func<Imagenes, bool>> condiciones)
         {
+            iAuditoriasRepositorio!.Guardar(new Auditorias()
+            {
+                Tabla = "Imagenes",
+                Referencia = 0,
+                Accion = "Buscar"
+            });
             return conexion!.Buscar(condiciones);
         }
 
