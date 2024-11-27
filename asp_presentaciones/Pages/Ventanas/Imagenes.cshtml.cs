@@ -12,22 +12,16 @@ using System.Threading.Tasks;
 
 namespace asp_presentacion.Pages.Ventanas
 {
-    public class PaginasModel : PageModel
+    public class ImagenesModel : PageModel
     {
-        private IPaginasPresentacion? iPresentacion = null;
-        private IProductosPresentacion? iProductosPresentacion = null;
-        private IPromocionesPresentacion? iPromocionesPresentacion = null;
-        private IImagenesPresentacion? iImagenesPresentacion = null; // Para cargar las imágenes existentes
+        private IImagenesPresentacion? iPresentacion = null;
 
-        public PaginasModel(IPaginasPresentacion iPresentacion, IProductosPresentacion iProductosPresentacion, IPromocionesPresentacion iPromocionesPresentacion, IImagenesPresentacion iImagenesPresentacion)
+        public ImagenesModel(IImagenesPresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                this.iProductosPresentacion = iProductosPresentacion;
-                this.iPromocionesPresentacion = iPromocionesPresentacion;
-                this.iImagenesPresentacion = iImagenesPresentacion;
-                Filtro = new Paginas();
+                Filtro = new Imagenes();
             }
             catch (Exception ex)
             {
@@ -35,13 +29,11 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
+        [BindProperty] public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Paginas? Actual { get; set; }
-        [BindProperty] public Paginas? Filtro { get; set; }
-        [BindProperty] public List<Paginas>? Lista { get; set; }
-        [BindProperty] public List<Productos>? Productos { get; set; }
-        [BindProperty] public List<Promociones>? Promociones { get; set; }
-        [BindProperty] public List<Imagenes>? Imagenes { get; set; } // Lista de imágenes disponibles
+        [BindProperty] public Imagenes? Actual { get; set; }
+        [BindProperty] public Imagenes? Filtro { get; set; }
+        [BindProperty] public List<Imagenes>? Lista { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -49,13 +41,12 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
-                Filtro!.Titulo = Filtro!.Titulo ?? "";
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.Buscar(Filtro!, "TITULO");
+                var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE");
                 task.Wait();
                 Lista = task.Result;
-                CargarCombox();
                 Actual = null;
             }
             catch (Exception ex)
@@ -69,8 +60,7 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                CargarCombox();
-                Actual = new Paginas();
+                Actual = new Imagenes();
             }
             catch (Exception ex)
             {
@@ -85,7 +75,6 @@ namespace asp_presentacion.Pages.Ventanas
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
-                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -97,27 +86,22 @@ namespace asp_presentacion.Pages.Ventanas
         {
             Accion = Enumerables.Ventanas.Editar;
 
-            if (Actual == null)
+            if (FormFile != null)
             {
-                Actual = new Paginas();
-            }
-
-            if (Actual._Imagen == null)
-            {
-                Actual._Imagen = new Imagenes();
+                using (var memoryStream = new MemoryStream())
+                {
+                    await FormFile.CopyToAsync(memoryStream);
+                    Actual!.Url = Convert.ToBase64String(memoryStream.ToArray());
+                }
             }
 
             try
             {
-                Task<Paginas>? task = null;
-                if (Actual.Id == 0)
-                {
+                Task<Imagenes>? task = null;
+                if (Actual!.Id == 0)
                     task = this.iPresentacion!.Guardar(Actual!);
-                }
                 else
-                {
                     task = this.iPresentacion!.Modificar(Actual!);
-                }
                 task.Wait();
                 Actual = task.Result;
                 Accion = Enumerables.Ventanas.Listas;
@@ -178,40 +162,6 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 if (Accion == Enumerables.Ventanas.Listas)
                     OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
-
-        public void CargarCombox()
-        {
-            try
-            {
-                // Cargar Productos
-                if (Productos == null || Productos!.Count <= 0)
-                {
-                    var taskProductos = this.iProductosPresentacion!.Listar();
-                    taskProductos.Wait();
-                    Productos = taskProductos.Result;
-                }
-
-                // Cargar Promociones
-                if (Promociones == null || Promociones!.Count <= 0)
-                {
-                    var taskPromociones = this.iPromocionesPresentacion!.Listar();
-                    taskPromociones.Wait();
-                    Promociones = taskPromociones.Result;
-                }
-
-                // Cargar Imágenes
-                if (Imagenes == null || Imagenes!.Count <= 0)
-                {
-                    var taskImagenes = this.iImagenesPresentacion!.Listar();
-                    taskImagenes.Wait();
-                    Imagenes = taskImagenes.Result;
-                }
             }
             catch (Exception ex)
             {

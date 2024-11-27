@@ -65,12 +65,10 @@ CREATE TABLE [Imagenes]
 (
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	[Nombre] NVARCHAR(50),
-	[Url] NVARCHAR(250),
+	[Url] NVARCHAR(MAX),
 	CONSTRAINT [PK_Imagenes] PRIMARY KEY CLUSTERED ([Id])
 )
 GO
-
-DROP TABLE [Imagenes]
 
 INSERT INTO [Imagenes] ([Nombre], [Url])
 VALUES
@@ -121,8 +119,8 @@ GO
 INSERT INTO [Paginas] ([Titulo], [Fecha], [Costo], [Ciudad], [Producto], [Imagen], [Promocion])
 VALUES
 	('Super Chocolisto', '2024-12-20 9:00:15', 4000, 'Madrid', 1, 1, 1),
-	('Nuevos Zapatos', '2024-12-10 6:45:00', 300000, 'Bogota', 3, 3, 1),
-	('Mega Chocolisto', '2023-10-15 00:00:00', 4800, 'California', 1, 2, 2),
+	('Nuevos Zapatos', '2024-12-10 6:45:00', 300000, 'Bogota', 3, 2, 1),
+	('Mega Chocolisto', '2023-10-15 00:00:00', 4800, 'California', 1, 3, 2),
 	('Jabon para Piel', '2026-09-21 18:30:30', 2850, 'Medellin', 2, 4, 3);
 
 SELECT * FROM [Paginas]
@@ -135,3 +133,21 @@ CREATE TABLE [Auditorias]
 	[Accion] NVARCHAR(50) NOT NULL
 )
 GO
+
+SELECT * FROM [Auditorias]
+
+CREATE TABLE [Usuarios]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1),
+	[Email] NVARCHAR(50) NOT NULL,
+	[Contraseña] NVARCHAR(50) NOT NULL
+)
+GO
+
+INSERT INTO [Usuarios] ([Email], [Contraseña])
+VALUES
+	('manu@correo.com', 000),
+	('juan@correo.com', 123),
+	('andres@correo.com', 810);
+
+SELECT * FROM [Usuarios]

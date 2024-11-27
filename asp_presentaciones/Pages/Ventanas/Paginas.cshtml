@@ -5,144 +5,90 @@
 }
 <center>
     <div>
-        <form method="POST"
-              enctype="multipart/form-data">
+        <form method="POST" enctype="multipart/form-data">
             @Html.AntiForgeryToken()
 
             <div align="left">
                 <h3>Paginas</h3>
             </div>
-            <div align="left"
-                 class="bt_panel_buttons">
-                <input type="submit"
-                       value="Refrescar"
-                       asp-page-handler="BtRefrescar"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Nuevo"
-                       asp-page-handler="BtNuevo"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Guardar"
-                       asp-page-handler="BtGuardar"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
-                <input type="submit"
-                       value="Cancelar"
-                       asp-page-handler="BtCancelar"
-                       class="btn btn-secondary"
-                       disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
+            <div align="left" class="bt_panel_buttons">
+                <input type="submit" value="Refrescar" asp-page-handler="BtRefrescar" class="btn btn-secondary" disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Nuevo" asp-page-handler="BtNuevo" class="btn btn-secondary" disabled="@(Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Guardar" asp-page-handler="BtGuardar" class="btn btn-secondary" disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Cancelar" asp-page-handler="BtCancelar" class="btn btn-secondary" disabled="@(Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas)" />
             </div>
 
-            @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas ||
-            Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            @if (Model.Accion != lib_utilidades.Enumerables.Ventanas.Listas || Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Id" />
+                <input type="hidden" asp-for="@Model.Actual!.Id" />
             }
+
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Titulo" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Fecha" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Costo" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.Ciudad" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!._Producto!.Nombre_producto" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!._Imagen!.Nombre" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!._Promocion!.Nombre" />
+                <input type="hidden" asp-for="@Model.Actual!.Titulo" />
+                <input type="hidden" asp-for="@Model.Actual!.Fecha" />
+                <input type="hidden" asp-for="@Model.Actual!.Costo" />
+                <input type="hidden" asp-for="@Model.Actual!.Ciudad" />
+                <input type="hidden" asp-for="@Model.Actual!._Producto!.Nombre_producto" />
+                <input type="hidden" asp-for="@Model.Actual!._Imagen!.Nombre" />
+                <input type="hidden" asp-for="@Model.Actual!._Promocion!.Nombre" />
             }
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
                     <h3>Pagina</h3>
-
                     <div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Titulo
-                            </label>
+                            <label class="col-lg-4 control-label">Titulo</label>
                             <div class="col-lg-6">
-                                <input id="nmNombre"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Titulo" />
+                                <input id="nmTitulo" class="cts_forms form-control" asp-for="@Model.Actual!.Titulo" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Fecha
-                            </label>
+                            <label class="col-lg-4 control-label">Fecha</label>
                             <div class="col-lg-6">
-                                <input id="nmDireccion"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Fecha" />
+                                <input id="nmFecha" class="cts_forms form-control" asp-for="@Model.Actual!.Fecha" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Costo
-                            </label>
+                            <label class="col-lg-4 control-label">Costo</label>
                             <div class="col-lg-6">
-                                <input id="nmTelefono"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Costo" />
+                                <input id="nmCosto" class="cts_forms form-control" asp-for="@Model.Actual!.Costo" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Ciudad
-                            </label>
+                            <label class="col-lg-4 control-label">Ciudad</label>
                             <div class="col-lg-6">
-                                <input id="nmFecha"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Ciudad" />
+                                <input id="nmCiudad" class="cts_forms form-control" asp-for="@Model.Actual!.Ciudad" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Producto
-                            </label>
+                            <label class="col-lg-4 control-label">Producto</label>
                             <div class="col-lg-6">
-                                <input id="nmActiva"
-                                       type="checkbox"
-                                       asp-for="@Model.Actual!._Producto!.Nombre_producto" />
+                                <select id="nmProducto" class="form-control" asp-for="@Model.Actual!._Producto!.Id" asp-items="@(new SelectList(Model.Productos, "Id", "Nombre_producto"))">
+                                    <option value="">Seleccione un producto</option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Imagen
-                            </label>
+                            <label class="col-lg-4 control-label">Imagen</label>
                             <div class="col-lg-6">
-                                @if (Model.Actual!._Imagen != null)
+                                <select id="nmImagen" class="form-control" asp-for="@Model.Actual!._Imagen!.Id" asp-items="@(new SelectList(Model.Imagenes, "Id", "Nombre"))">
+                                    <option value="">Seleccione una imagen</option>
+                                </select>
+                                @if (Model.Actual!._Imagen != null && Model.Actual!._Imagen.Url != null)
                                 {
-                                    <img height="100"
-                                         width="100"
-                                         src="data:image;base64,
-                                            @System.Convert.ToBase64String(
-                                            lib_utilidades.EncodingHelper.ToBytes(
-                                            Model.Actual!._Imagen.Url))" />
+                                    <img height="100" width="100" src="data:image;base64,@Model.Actual!._Imagen.Url" />
                                 }
-                                <input type="file"
-                                       class="form-control"
-                                       asp-for="FormFile" />
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Promocion
-                            </label>
+                            <label class="col-lg-4 control-label">Promocion</label>
                             <div class="col-lg-6">
-                                <input id="nmActiva"
-                                       type="checkbox"
-                                       asp-for="@Model.Actual!._Promocion!.Nombre" />
+                                <select id="nmPromocion" class="form-control" asp-for="@Model.Actual!._Promocion!.Id" asp-items="@(new SelectList(Model.Promociones, "Id", "Nombre"))">
+                                    <option value="">Seleccione una promoción</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -151,10 +97,8 @@
 
             @if (ViewData.ContainsKey("Mensaje"))
             {
-                <input type="hidden"
-                       asp-for="@Model.Accion" />
+                <input type="hidden" asp-for="@Model.Accion" />
                 @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
-                ;
             }
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
@@ -162,102 +106,51 @@
                 <div class='popup'>
                     <div class='pp_del_inner'>
                         <div style='width:95%'>
-                            <h2 align="left">
-                                Mensaje
-                            </h2>
-
-                            <h4 align="left">
-                                Desea borrar la entidad?
-                            </h4>
-                            <h6 align="left">
-                                @Model.Actual!.Titulo
-                            </h6>
+                            <h2 align="left">Mensaje</h2>
+                            <h4 align="left">Desea borrar la entidad?</h4>
+                            <h6 align="left">@Model.Actual!.Titulo</h6>
                             <br />
                             <br />
-                            <input type="submit"
-                                   value="Borrar"
-                                   asp-page-handler="BtBorrar"
-                                   class="btn btn-secondary" />
-                            <input type="submit"
-                                   value="Cerrar"
-                                   asp-page-handler="BtCancelar"
-                                   class="btn btn-secondary" />
+                            <input type="submit" value="Borrar" asp-page-handler="BtBorrar" class="btn btn-secondary" />
+                            <input type="submit" value="Cerrar" asp-page-handler="BtCancelar" class="btn btn-secondary" />
                         </div>
                     </div>
                 </div>
             }
 
-            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas ||
-            Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
+            @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Listas || Model.Accion == lib_utilidades.Enumerables.Ventanas.Borrar)
             {
-                <input id="flNombre"
-                       class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.Titulo"
-                       placeholder="Nombre" />
+                <input id="flTitulo" class="cts_forms form-control" asp-for="@Model.Filtro!.Titulo" placeholder="Nombre" />
                 <br />
 
                 <div class="containers_vn panel panel-default">
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
-                            <th>
-                                Titulo
-                            </th>
-                            <th class="cl_hidden">
-                                Fecha
-                            </th>
-                            <th class="cl_hidden">
-                                Costo
-                            </th>
-                            <th>
-                                Ciudad
-                            </th>
-                            <th class="cl_hidden">
-                                Producto
-                            </th>
-                            <th class="cl_actions">
-                                Imagen
-                            </th>
-                            <th class="cl_actions">
-                                Promocion
-                            </th>
+                            <th>Titulo</th>
+                            <th class="cl_hidden">Fecha</th>
+                            <th class="cl_hidden">Costo</th>
+                            <th>Ciudad</th>
+                            <th class="cl_hidden">Producto</th>
+                            <th>Imagen</th>
+                            <th>Promocion</th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
                             @foreach (var elemento in Model.Lista)
                             {
                                 <tr>
+                                    <td>@elemento.Titulo</td>
+                                    <td class="cl_hidden">@elemento.Fecha</td>
+                                    <td class="cl_hidden">@elemento.Costo</td>
+                                    <td>@elemento.Ciudad</td>
+                                    <td class="cl_hidden">@elemento._Producto!.Nombre_producto</td>
                                     <td>
-                                        @elemento.Titulo
+                                        <img height="100" width="100" src="data:image;base64,@elemento._Imagen!.Url" />
                                     </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Fecha
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.Costo
-                                    </td>
+                                    <td class="cl_hidden">@elemento._Promocion!.Nombre</td>
                                     <td>
-                                        @elemento.Ciudad
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento._Producto!.Nombre_producto
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento._Imagen!.Nombre
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento._Promocion!.Nombre
-                                    </td>
-                                    <td>
-                                        <input type="submit"
-                                               value="Modicar"
-                                               asp-page-handler="BtModificar"
-                                               class="btn btn-secondary"
-                                               asp-route-data="@elemento.Id" />
-                                        <input type="submit"
-                                               value="Borrar"
-                                               asp-page-handler="BtBorrarVal"
-                                               class="btn btn-secondary"
-                                               asp-route-data="@elemento.Id" />
+                                        <input type="submit" value="Modificar" asp-page-handler="BtModificar" class="btn btn-secondary" asp-route-data="@elemento.Id" />
+                                        <input type="submit" value="Borrar" asp-page-handler="BtBorrarVal" class="btn btn-secondary" asp-route-data="@elemento.Id" />
                                     </td>
                                 </tr>
                             }
