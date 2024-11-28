@@ -17,7 +17,7 @@ namespace asp_presentacion.Pages.Ventanas
         private IPaginasPresentacion? iPresentacion = null;
         private IProductosPresentacion? iProductosPresentacion = null;
         private IPromocionesPresentacion? iPromocionesPresentacion = null;
-        private IImagenesPresentacion? iImagenesPresentacion = null; // Para cargar las imágenes existentes
+        private IImagenesPresentacion? iImagenesPresentacion = null;
 
         public PaginasModel(IPaginasPresentacion iPresentacion, IProductosPresentacion iProductosPresentacion, IPromocionesPresentacion iPromocionesPresentacion, IImagenesPresentacion iImagenesPresentacion)
         {
@@ -41,7 +41,7 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public List<Paginas>? Lista { get; set; }
         [BindProperty] public List<Productos>? Productos { get; set; }
         [BindProperty] public List<Promociones>? Promociones { get; set; }
-        [BindProperty] public List<Imagenes>? Imagenes { get; set; } // Lista de imágenes disponibles
+        [BindProperty] public List<Imagenes>? Imagenes { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -189,7 +189,6 @@ namespace asp_presentacion.Pages.Ventanas
         {
             try
             {
-                // Cargar Productos
                 if (Productos == null || Productos!.Count <= 0)
                 {
                     var taskProductos = this.iProductosPresentacion!.Listar();
@@ -197,7 +196,6 @@ namespace asp_presentacion.Pages.Ventanas
                     Productos = taskProductos.Result;
                 }
 
-                // Cargar Promociones
                 if (Promociones == null || Promociones!.Count <= 0)
                 {
                     var taskPromociones = this.iPromocionesPresentacion!.Listar();
@@ -205,7 +203,6 @@ namespace asp_presentacion.Pages.Ventanas
                     Promociones = taskPromociones.Result;
                 }
 
-                // Cargar Imágenes
                 if (Imagenes == null || Imagenes!.Count <= 0)
                 {
                     var taskImagenes = this.iImagenesPresentacion!.Listar();

@@ -3,18 +3,26 @@ using lib_presentaciones.Interfaces;
 using lib_utilidades;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace asp_presentacion.Pages.Ventanas
 {
     public class ProductosModel : PageModel
     {
         private IProductosPresentacion? iPresentacion = null;
+        private IFabricantesPresentacion? iFabricantesPresentacion = null;
+        private ITipos_productoPresentacion? iTiposProductosPresentacion = null;
 
-        public ProductosModel(IProductosPresentacion iPresentacion)
+        public ProductosModel(IProductosPresentacion iPresentacion, IFabricantesPresentacion iFabricantesPresentacion, ITipos_productoPresentacion iTiposProductosPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.iFabricantesPresentacion = iFabricantesPresentacion;
+                this.iTiposProductosPresentacion = iTiposProductosPresentacion;
                 Filtro = new Productos();
             }
             catch (Exception ex)
@@ -27,6 +35,8 @@ namespace asp_presentacion.Pages.Ventanas
         [BindProperty] public Productos? Actual { get; set; }
         [BindProperty] public Productos? Filtro { get; set; }
         [BindProperty] public List<Productos>? Lista { get; set; }
+        [BindProperty] public List<Fabricantes>? Fabricantes { get; set; }
+        [BindProperty] public List<Tipos_producto>? Tipos_producto { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -40,6 +50,7 @@ namespace asp_presentacion.Pages.Ventanas
                 var task = this.iPresentacion!.Buscar(Filtro!, "NOMBRE_PRODUCTO");
                 task.Wait();
                 Lista = task.Result;
+                CargarCombox();
                 Actual = null;
             }
             catch (Exception ex)
@@ -53,10 +64,8 @@ namespace asp_presentacion.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = new Productos()
-                {
-                    //Nombre_producto = DateTime.Now,
-                };
+                CargarCombox();
+                Actual = new Productos();
             }
             catch (Exception ex)
             {
@@ -71,6 +80,7 @@ namespace asp_presentacion.Pages.Ventanas
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
+                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -78,11 +88,12 @@ namespace asp_presentacion.Pages.Ventanas
             }
         }
 
-        public virtual void OnPostBtGuardar()
+        public virtual async Task<IActionResult> OnPostBtGuardarAsync()
         {
+            Accion = Enumerables.Ventanas.Editar;
+
             try
             {
-                Accion = Enumerables.Ventanas.Editar;
                 Task<Productos>? task = null;
                 if (Actual!.Id == 0)
                     task = this.iPresentacion!.Guardar(Actual!);
@@ -97,6 +108,8 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 LogConversor.Log(ex, ViewData!);
             }
+
+            return RedirectToPage();
         }
 
         public virtual void OnPostBtBorrarVal(string data)
@@ -146,6 +159,30 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 if (Accion == Enumerables.Ventanas.Listas)
                     OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void CargarCombox()
+        {
+            try
+            {
+                if (Fabricantes == null || Fabricantes!.Count <= 0)
+                {
+                    var taskFabricantes = this.iFabricantesPresentacion!.Listar();
+                    taskFabricantes.Wait();
+                    Fabricantes = taskFabricantes.Result;
+                }
+
+                if (Tipos_producto == null || Tipos_producto!.Count <= 0)
+                {
+                    var taskTiposProductos = this.iTiposProductosPresentacion!.Listar();
+                    taskTiposProductos.Wait();
+                    Tipos_producto = taskTiposProductos.Result;
+                }
             }
             catch (Exception ex)
             {

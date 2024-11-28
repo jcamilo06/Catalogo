@@ -29,9 +29,9 @@
                 <input type="hidden" asp-for="@Model.Actual!.Fecha" />
                 <input type="hidden" asp-for="@Model.Actual!.Costo" />
                 <input type="hidden" asp-for="@Model.Actual!.Ciudad" />
-                <input type="hidden" asp-for="@Model.Actual!._Producto!.Nombre_producto" />
-                <input type="hidden" asp-for="@Model.Actual!._Imagen!.Nombre" />
-                <input type="hidden" asp-for="@Model.Actual!._Promocion!.Nombre" />
+                <input type="hidden" asp-for="@Model.Actual!.Producto" />
+                <input type="hidden" asp-for="@Model.Actual!.Imagen" />
+                <input type="hidden" asp-for="@Model.Actual!.Promocion" />
             }
 
             @if (Model.Accion == lib_utilidades.Enumerables.Ventanas.Editar)
@@ -66,7 +66,7 @@
                         <div class="form-group">
                             <label class="col-lg-4 control-label">Producto</label>
                             <div class="col-lg-6">
-                                <select id="nmProducto" class="form-control" asp-for="@Model.Actual!._Producto!.Id" asp-items="@(new SelectList(Model.Productos, "Id", "Nombre_producto"))">
+                                <select id="nmProducto" class="form-control" asp-for="@Model.Actual!.Producto" asp-items="@(new SelectList(Model.Productos, "Id", "Nombre_producto"))">
                                     <option value="">Seleccione un producto</option>
                                 </select>
                             </div>
@@ -74,7 +74,7 @@
                         <div class="form-group">
                             <label class="col-lg-4 control-label">Imagen</label>
                             <div class="col-lg-6">
-                                <select id="nmImagen" class="form-control" asp-for="@Model.Actual!._Imagen!.Id" asp-items="@(new SelectList(Model.Imagenes, "Id", "Nombre"))">
+                                <select id="nmImagen" class="form-control" asp-for="@Model.Actual!.Imagen" asp-items="@(new SelectList(Model.Imagenes, "Id", "Nombre"))">
                                     <option value="">Seleccione una imagen</option>
                                 </select>
                                 @if (Model.Actual!._Imagen != null && Model.Actual!._Imagen.Url != null)
@@ -86,7 +86,7 @@
                         <div class="form-group">
                             <label class="col-lg-4 control-label">Promocion</label>
                             <div class="col-lg-6">
-                                <select id="nmPromocion" class="form-control" asp-for="@Model.Actual!._Promocion!.Id" asp-items="@(new SelectList(Model.Promociones, "Id", "Nombre"))">
+                                <select id="nmPromocion" class="form-control" asp-for="@Model.Actual!.Promocion" asp-items="@(new SelectList(Model.Promociones, "Id", "Nombre"))">
                                     <option value="">Seleccione una promoción</option>
                                 </select>
                             </div>
